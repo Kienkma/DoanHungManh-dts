@@ -1,0 +1,17 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_JK_FF_CNT_behav xil_defaultlib.tb_JK_FF_CNT -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.JK_FF [jk_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.JK_FF_CNT [jk_ff_cnt_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_jk_ff_cnt
+Built simulation snapshot tb_JK_FF_CNT_behav
