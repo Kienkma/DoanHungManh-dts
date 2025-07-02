@@ -1,4 +1,3 @@
---bai 4, 5, 7, 14.
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 entity cnt_tff is  
