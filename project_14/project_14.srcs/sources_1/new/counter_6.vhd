@@ -27,17 +27,14 @@ architecture Structural of cnt_6 is
 
 begin
 
-    -- FF0: luôn toggle
     J(0) <= '1';
     K(0) <= '1';
 
-    -- FF1: toggle khi Q0 = 1
-    J(1) <= Q_sig(0);
+    J(1) <= (not Q_sig(2)) and Q_sig(0);
     K(1) <= Q_sig(0);
 
-    -- FF2: toggle khi Q1 AND Q0 = 1
-    J(2) <= Q_sig(1) and Q_sig(0);
-    K(2) <= Q_sig(1) and Q_sig(0);
+    J(2) <= Q_sig(0) and Q_sig(1);
+    K(2) <= Q_sig(0) and (not Q_sig(1));
 
     -- Kết nối Flip-Flops
     FF0: JK_FF port map (J(0), K(0), CLK, Q_sig(0), Q_inv_sig(0));
