@@ -1,4 +1,3 @@
--- Bai 6, 8, 10, 11, 15.
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
